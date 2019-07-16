@@ -1,0 +1,22 @@
+# DPH - personal nanorc file.  Place in ~./nanorc
+
+# Include specific resource files
+# For FreeBSD, default resource files are located in /usr/local/share/nano
+
+include "/usr/local/share/nano/bash.nanorc"
+include "/usr/local/share/nano/c.nanorc"
+include "/usr/local/share/nano/go.nanorc"
+include "/usr/local/share/nano/html.nanorc"
+include "/usr/local/share/nano/javascript.nanorc"
+include "/usr/local/share/nano/perl.nanorc"
+include "/usr/local/share/nano/python.nanorc"
+include "/usr/local/share/nano/xml.nanorc"
+include "/usr/local/share/nano/default.nanorc"
+include "/usr/local/share/nano/xml.nanorc"
+
+# Set specific behaviors
+set autoindent
+set const
+set nowrap
+set tabsize 2
+set tabtospaces
